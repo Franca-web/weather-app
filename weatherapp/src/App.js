@@ -2,7 +2,7 @@ import {Switch,Route} from 'react-router-dom'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
 import Home from './pages/Home'
-
+import SearchWeather from './pages/SearchWeather'
   
 
 
@@ -15,6 +15,7 @@ function App() {
         <Route path={"/"} exact={true} component={Home} />
         <Route path={"/login"} exact={true} component={Login} />
         <Route path={"/signup"} exact={true} component={SignUp} />
+        <Route path={"/search"} exact={true} components={SearchWeather} />
       </Switch>
       
     </div>
