@@ -33,7 +33,7 @@ useEffect(()=>{
         getCurrentWeather()
         
     }, (error)=> {
-        console.log("hey this is your err:", error)
+        console.log("hey this is your err:", error) 
     })
     
 }, [])
