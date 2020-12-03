@@ -1,10 +1,11 @@
 import {Switch,Route} from 'react-router-dom'
-import Login from './pages/Login'
-import SignUp from './pages/SignUp'
-import Home from './pages/Home'
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
+import Home from './pages/Home';
 import SearchWeather from './pages/SearchWeather';
 import './styles/variables.css';
 import React, {useState} from 'react';
+import Sidebar from './components/Sidebar';
 
 
 
