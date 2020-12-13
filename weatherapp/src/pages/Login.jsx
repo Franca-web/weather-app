@@ -9,7 +9,7 @@ function Login() {
     setUsername(event.target.value);
   }
   function handlePasswordOnChange(event) {
-    setPassword(event.taret.value);
+    setPassword(event.target.value);
   }
 
   function loginUser(event) {
@@ -32,6 +32,7 @@ function Login() {
         <input
           onChange={handlePasswordOnChange}
           value={"password"}
+          type={"text"}
           placeholder={"Please enter your password"}
         />
         <button type={"submit"}>Login</button>
